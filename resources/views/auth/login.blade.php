@@ -15,17 +15,7 @@
 
             <div class="header header-primary text-center">
               <h4>Inicio de sesión</h4>
-              <div class="social-line">
-                <a href="#pablo" class="btn btn-simple btn-just-icon">
-                  <i class="fa fa-facebook-square"></i>
-                </a>
-                <a href="#pablo" class="btn btn-simple btn-just-icon">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#pablo" class="btn btn-simple btn-just-icon">
-                  <i class="fa fa-google-plus"></i>
-                </a>
-              </div>
+
             </div>
             <p class="text-divider">Ingresa tus datos</p>
             <div class="content">
@@ -81,37 +71,7 @@
     </div>
   </div>
 
-  <footer class="footer">
-        <div class="container">
-            <nav class="pull-left">
-        <ul>
-          <li>
-            <a href="http://www.creative-tim.com">
-              Creative Tim
-            </a>
-          </li>
-          <li>
-            <a href="http://presentation.creative-tim.com">
-               About Us
-            </a>
-          </li>
-          <li>
-            <a href="http://blog.creative-tim.com">
-               Blog
-            </a>
-          </li>
-          <li>
-            <a href="http://www.creative-tim.com/license">
-              Licenses
-            </a>
-          </li>
-        </ul>
-            </nav>
-            <div class="copyright pull-right">
-                &copy; 2016, made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com" target="_blank">Creative Tim</a>
-            </div>
-        </div>
-    </footer>
+@include('includes.footer')
 
 </div>
 @endsection
